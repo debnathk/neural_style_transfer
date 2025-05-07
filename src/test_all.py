@@ -272,10 +272,6 @@ def main():
     # Test all models
     results = test_all_models()
     
-    # Analyze results
-    if results:
-        analyze_results(results)
-    
     print("\nEvaluation complete!")
 
 if __name__ == "__main__":
